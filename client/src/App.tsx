@@ -9,7 +9,7 @@ import type {
     TimeSyncData,
 } from "./types/socket";
 
-const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || "http://localhost:3001";
+const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || "https://shared-watch-session.onrender.com/";
 
 function App() {
     const [socket, setSocket] = useState<SocketType | null>(null);

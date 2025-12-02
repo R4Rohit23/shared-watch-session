@@ -18,7 +18,7 @@ const app: Express = express();
 const httpServer: HttpServer = createServer(app);
 const io = new SocketIOServer(httpServer, {
     cors: {
-        origin: "http://localhost:3000",
+        origin: " https://wonderful-cobbler-210618.netlify.app",
         methods: ["GET", "POST"],
     },
 });
